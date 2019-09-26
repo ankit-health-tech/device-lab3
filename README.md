@@ -16,6 +16,10 @@ The ADC of the Arduino is 10ADC which implies it can read 2^10 analog signals
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
+[Video of the setup](https://i.imgur.com/qlabXIA.mp4)
+<br>
+[Circuit Diagram]<br><img src="https://i.imgur.com/sfw5Cop.jpg" height="50%" width="50%"><br>
+
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
