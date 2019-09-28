@@ -89,12 +89,12 @@ Using EEPROM Put feature you can split data across bytes by defining the address
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
-<br><img src="https://i.imgur.com/V9jde0r.jpg" height="50%" width="50%"><br>
+<br><img src="https://i.imgur.com/PPhjbVn.jpg" height="50%" width="50%"><br>
 
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
 
-{View Video](https://i.imgur.com/YxZyxp5.mp4)
+[View Video](https://i.imgur.com/YxZyxp5.mp4)
 
 [View Code](https://github.com/ankit-health-tech/device-lab3/blob/master/datalogger.ino)
