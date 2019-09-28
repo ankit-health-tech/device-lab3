@@ -45,6 +45,10 @@ I'm currently using the 10k resistor and have received reasonable volatge figure
 
 FSR and Photocell seem highly sensitive to stimulus (pressure/bend/light) and show a more logarithmic relationship with change in stimulus. For Softpot, theoretically it should be linear, my experience has been similar as well, a rough guess would be a polynomial like function in response to stimulus. Flex sensor exhibits a polynomial function too. I found bending as a stimulus difficult to assess.
 
+***Additional - Modify the example code for the OLED display to read content from the A0 input
+
+[View Code here](https://github.com/ankit-health-tech/device-lab3/blob/master/softpot_OLED.ino)
+
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
@@ -76,9 +80,11 @@ Analog data varies from 0-1023, whereas 1 byte ranges from 0-255. In such a scen
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
-
+Using EEPROM Put feature you can split data across bytes by defining the address logic.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+[View Code here](https://github.com/ankit-health-tech/device-lab3/blob/master/softpot_OLED.ino)
 
 ### 2. Design your logger
  
